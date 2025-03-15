@@ -9,7 +9,7 @@ ENV BUNDLE_RETRY=3
 WORKDIR /app
 
 # Instala dependências do sistema
-RUN apt-get update -qq && apt-get install -y nodejs
+RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
 
 # Copia o Gemfile e Gemfile.lock para instalar as gems
 COPY Gemfile Gemfile.lock ./
