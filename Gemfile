@@ -33,7 +33,7 @@ group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
   gem 'factory_bot', '~> 6.5', '>= 6.5.1'
-  gem 'factory_bot_rails', '~> 6.4', '>= 6.4.4'
+  gem 'factory_bot_rails', '~> 6.5'
   gem 'rspec-rails', '~> 7.0.0'
   gem "rubocop-rails-omakase", require: false
 end
